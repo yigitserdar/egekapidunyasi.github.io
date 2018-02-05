@@ -41,6 +41,15 @@ p {
     color: #333;
 }
 
+.ion-social-facebook {
+    font-size: 3em;
+    color: #fff;
+}
+
+.ion-social-facebook:hover {
+    color: #3b5998;
+}
+
 /* navbar */
 
 .topnav {
@@ -59,12 +68,12 @@ p {
 }
 
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #eaeaea;
   color: black;
 }
 
 .active {
-  background-color: #4CAF50;
+  background-color: #2690d4;
   color: white;
 }
 
@@ -149,6 +158,24 @@ nav a:hover {
     padding: 1.5em;
 }
 
+
+.link:link, a:visited {
+    background-color: #2690d4;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: grid;
+    margin-bottom: 10px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+
+.link:hover, a:active {
+    background: #eaeaea;
+    color: #333;
+}
+
 /* Section C */
 
 #section-c {
@@ -161,7 +188,7 @@ nav a:hover {
 
 #section-d .box {
     padding: 2em;
-    color: #fff;
+    color: #fff; 
 }
 #section-d .box:first-child {
     background: #2690d4;
@@ -208,7 +235,7 @@ nav a:hover {
     
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 870px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
@@ -216,7 +243,7 @@ nav a:hover {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 870px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
